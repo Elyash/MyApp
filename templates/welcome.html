@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to the Birthday Gift App!</h1>
+        <p class="lead">This app allows users to upload and view gift ideas for their birthdays. Register or log in to start uploading gifts or view other users' gifts.</p>
+        <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+{% endblock %}

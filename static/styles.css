@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://example.com/simple-gift-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #343a40;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
